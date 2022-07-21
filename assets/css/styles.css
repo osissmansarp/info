@@ -115,7 +115,7 @@ img{
 .section-title{
   font-size: var(--h1-font-size);
   color: var(--title-color);
-  margin-bottom: var(--mb-3);
+  margin-bottom: var(--mb-5);
 }
 
 .section-subtitle{
@@ -390,37 +390,23 @@ img{
   border-radius: .5rem 0 .5rem 0;
 }
 
-/*========== APP ==========*/
-.app__data{
+.table{
+  overflow-x: auto;
+}
+
+table{
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+  border: 2px solid #ddd;
+}
+
+th, td{
   text-align: center;
+  padding: 8px;
 }
 
-.app__description{
-  margin-bottom: var(--mb-5);
-}
-
-.app__stores{
-  margin-bottom: var(--mb-4);
-}
-
-.app__store{
-  width: 120px;
-  margin: 0 var(--mb-1);
-}
-
-.app__img{
-  width: 230px;
-  justify-self: center;
-}
-
-/*========== CONTACT ==========*/
-.contact__container{
-  text-align: center;
-}
-
-.contact__description{
-  margin-bottom: var(--mb-3);
-}
+tr:nth-child(even){background-color: #f2f2f2;}
 
 /*========== FOOTER ==========*/
 .footer__container{
